@@ -9,6 +9,12 @@ client.on('message', message => {
     if (message.content === 'help') {
     	message.reply('http://knowyourmeme.com/');
   	 }
+
+client.on('message', message => {
+    if (message.content === 'ping') {
+    	message.reply('http://knowyourmeme.com/');
+  	 } 
+    
 });
 
 // THIS  MUST  BE  THIS  WAY
